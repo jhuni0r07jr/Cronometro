@@ -20,6 +20,7 @@ function Stop(){
  
 function watch(){
 Segundos++;
+
     if(Segundos == 60){
         Minutos++;
         Segundos = 0;
