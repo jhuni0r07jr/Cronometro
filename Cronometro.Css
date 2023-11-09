@@ -24,7 +24,6 @@ body{
 }
 
 .conteiner{
-    border: 1px solid red;
     width: 100%;
     height: 100%;
     text-align: center;
@@ -32,7 +31,6 @@ body{
 }
 
 .conteiner span{
-    border: 1px solid green;
     width: 100%;
     font-size: 50%;
 }
