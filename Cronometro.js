@@ -5,10 +5,7 @@ var interval;
 
 
 function Start(){
-    Segundos = 0;
-    Minutos = 0;
-    Horas = 0;
-
+    interval = setInterval(watch, 10);
 }
 
 function pause(){
@@ -16,7 +13,6 @@ function pause(){
 }
 
 function Stop(){
-
     Segundos = 0;
     Minutos = 0;
     Horas = 0;
